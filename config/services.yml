@@ -1,0 +1,7 @@
+services:
+    ernadoo.httpsredirection.event.listener:
+        class: ernadoo\httpsredirection\event\listener
+        arguments:
+            - @request
+        tags:
+            - { name: event.listener }
