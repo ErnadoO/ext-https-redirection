@@ -50,7 +50,6 @@ class listener implements EventSubscriberInterface
 		if (!$this->request->is_secure() && PHP_SAPI != 'cli')
 		{
 			header('Location: https://' . $this->request->server('HTTP_HOST') . $this->request->server('REQUEST_URI'), true, 301);
-			exit;
 		}
 	}
 }
