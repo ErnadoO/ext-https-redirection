@@ -3,7 +3,7 @@
 	"type": "phpbb-extension",
 	"description": "Extension pour gérer la redirection http vers https.",
 	"homepage": "http://www.phpbb-services.com",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"time": "2016-11-28",
 	"license": "GPL-2.0",
 	"authors": [
